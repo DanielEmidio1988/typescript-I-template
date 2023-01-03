@@ -4,8 +4,13 @@ Com essa informação, a função retorna se o triângulo é equilátero, isósc
 Refatore a função para o Typescript.
 */
 
-/* DESCOMENTE ESTA FUNÇÃO
-function checaTriangulo(a, b, c) {
+// type Ttriangulo = {
+//   a: number
+//   b: number
+//   c: number
+// }
+// DESCOMENTE ESTA FUNÇÃO
+function checaTriangulo(a:number, b:number, c:number) {
   if ((a !== b) && (b !== c)) {
     return 'Escaleno'
   } else if (a === b && b === c) {
@@ -18,4 +23,4 @@ function checaTriangulo(a, b, c) {
 console.log(checaTriangulo(7, 7, 7))
 console.log(checaTriangulo(7, 7, 9))
 console.log(checaTriangulo(7, 8, 9))
-*/
+
